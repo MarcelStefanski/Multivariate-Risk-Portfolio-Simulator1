@@ -1,0 +1,20 @@
+Built a Monte Carlo portfolio simulator using historical 
+return estimates and covariance structures to evaluate 
+portfolio risk through Value-at-Risk (VaR) and 
+Expected Shortfall metrics.
+
+
+Average Portfolio Return:
+0.0002623398397983156
+
+Minimum Simulated Return:
+-0.028440426526925786
+
+Maximum Simulated Return:
+0.024665108792595272
+
+95% Value at Risk:
+-0.011494513966605153
+
+Expected Shortfall:
+-0.01446018935295037

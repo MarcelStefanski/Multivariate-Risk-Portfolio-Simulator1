@@ -1,0 +1,27 @@
+Purpose:
+Calculate covariance and correlation matrices
+for portfolio assets.
+
+Assets:
+SPY
+QQQ
+GLD
+TLT
+
+Print outs:
+
+Covariance Matrix:
+Ticker       GLD       QQQ       SPY       TLT
+Ticker                                        
+GLD     0.000079  0.000007  0.000005  0.000027
+QQQ     0.000007  0.000189  0.000142 -0.000019
+SPY     0.000005  0.000142  0.000123 -0.000023
+TLT     0.000027 -0.000019 -0.000023  0.000093
+
+Correlation Matrix:
+Ticker       GLD       QQQ       SPY       TLT
+Ticker                                        
+GLD     1.000000  0.056422  0.046814  0.312261
+QQQ     0.056422  1.000000  0.929276 -0.146187
+SPY     0.046814  0.929276  1.000000 -0.210153
+TLT     0.312261 -0.146187 -0.210153  1.000000

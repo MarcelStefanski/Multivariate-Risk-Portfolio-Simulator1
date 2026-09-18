@@ -1,0 +1,25 @@
+Portfolio Weights:
+SPY: 40%
+QQQ: 30%
+GLD: 15%
+TLT: 15%
+
+Calculated:
+- Expected Daily Return
+- Daily Volatility
+- Annualized Return
+- Annualized Volatility
+
+Print outs:
+
+Portfolio Daily Return:
+0.00044616718417050564
+
+Portfolio Daily Volatility:
+0.007068041279099362
+
+Annualized Return:
+0.11243413041096742
+
+Annualized Volatility:
+0.1122016768850147

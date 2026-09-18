@@ -1,0 +1,13 @@
+STRESS TEST RESULTS
+
+Moderate Crash
+Portfolio Return: -7.45%
+
+Severe Crash
+Portfolio Return: -16.75%
+
+Interest Rate Shock
+Portfolio Return: -6.95%
+
+Financial Crisis
+Portfolio Return: -25.75%
