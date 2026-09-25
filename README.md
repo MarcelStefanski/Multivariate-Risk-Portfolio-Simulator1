@@ -1,7 +1,6 @@
 # Multivariate Risk and Portfolio Simulator
 
-A Python-based financial risk and portfolio analytics project that models portfolio performance under uncertainty
-using historical market data, Monte Carlo simulation, portfolio optimization, and stress testing.
+A Python-based financial risk and portfolio analytics project that models portfolio performance under uncertainty using historical market data, Monte Carlo simulation, portfolio optimization, stress testing, and performance analysis.
 
 ## Overview
 
@@ -18,7 +17,12 @@ The simulator uses historical asset data to:
 - Construct an Efficient Frontier
 - Find Maximum Sharpe and Minimum Risk portfolios
 - Perform stress testing under adverse market conditions
+- Measure risk contributions by asset
+- Perform Principal Component Analysis (PCA)
+- Backtest historical portfolio performance
+- Compare portfolio performance against a benchmark
 
+---
 
 ## Assets
 
@@ -36,11 +40,13 @@ These assets provide exposure to:
 - Commodities
 - Fixed income
 
+---
+
 ## Features
 
 ### Data Collection
 
-- Historical market data downloaded using "yfinance"
+- Historical market data downloaded using `yfinance`
 - Daily adjusted closing prices
 
 ### Return Analysis
@@ -53,6 +59,7 @@ These assets provide exposure to:
 - Covariance matrix
 - Correlation matrix
 - Portfolio volatility
+- Risk contribution analysis
 
 ### Monte Carlo Simulation
 
@@ -63,6 +70,7 @@ These assets provide exposure to:
 
 - Value at Risk (VaR)
 - Expected Shortfall (ES)
+- Maximum Drawdown
 
 ### Portfolio Optimization
 
@@ -79,6 +87,31 @@ Portfolio performance evaluated under hypothetical market events:
 - Interest-rate shock
 - Financial crisis scenario
 
+### Principal Component Analysis (PCA)
+
+- Risk decomposition using PCA
+- Explained variance by principal component
+- Graphical visualization of dominant risk factors
+
+### Historical Backtesting
+
+- Historical portfolio growth simulation
+- Long-term performance evaluation
+
+### Benchmark Comparison
+
+- Portfolio vs SPY benchmark
+- Return and volatility comparison
+- Comparative performance visualization
+
+### Performance Metrics
+
+- Annualized Return
+- Annualized Volatility
+- Sharpe Ratio
+- Maximum Drawdown
+
+---
 
 ## Technologies Used
 
@@ -86,10 +119,13 @@ Portfolio performance evaluated under hypothetical market events:
 - NumPy
 - Pandas
 - Matplotlib
+- Seaborn
+- Scikit-learn
 - yfinance
 
+---
 
-## Example Results
+## Key Results
 
 ### Maximum Sharpe Portfolio
 
@@ -115,22 +151,74 @@ Portfolio Weights:
 - GLD: 31.36%
 - TLT: 38.95%
 
-## Project Structure
+### Portfolio Performance
 
-multivariate-risk-portfolio-simulator/
+- Annual Return: 11.24%
+- Annual Volatility: 11.22%
+- Sharpe Ratio: 1.00
+- Maximum Drawdown: -23.10%
 
-├── data_loader.py
-├── return_calculator.py
-├── covariance_analysis.py
-├── portfolio_simulator.py
-├── monte_carlo.py
-├── simulation_plot.py
-├── optimal_portfolios.py
-├── stress_testing.py
+### Benchmark Comparison
 
-├── results/
-│   ├── monte_carlo_distribution.png
-│   ├── efficient_frontier.png
-│   └── optimal_portfolios.png
+Portfolio:
 
-└── outputs/
+- Annual Return: 11.24%
+- Annual Volatility: 11.22%
+
+SPY Benchmark:
+
+- Annual Return: 13.81%
+- Annual Volatility: 17.62%
+
+The diversified portfolio generated lower returns than SPY while reducing volatility by approximately 36%.
+
+### Risk Contribution Analysis
+
+Risk Contribution by Asset:
+
+- SPY: 30.77%
+- QQQ: 46.72%
+- GLD: 17.86%
+- TLT: 4.65%
+
+This highlights that QQQ is the primary driver of portfolio risk despite representing only 30% of portfolio weight.
+
+### Stress Testing Results
+
+| Scenario | Portfolio Return |
+|-----------|-----------------|
+| Moderate Crash | -7.45% |
+| Severe Crash | -16.75% |
+| Interest Rate Shock | -6.95% |
+| Financial Crisis | -25.75% |
+
+---
+
+
+## Future Improvements
+
+Potential extensions include:
+
+- Sortino Ratio
+- Historical VaR vs Monte Carlo VaR comparison
+- Portfolio rebalancing strategies
+- Factor models
+- Interactive dashboard
+- Copula-based dependence modeling
+- Advanced risk attribution
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical applications of:
+
+- Portfolio Theory
+- Quantitative Risk Management
+- Monte Carlo Methods
+- Statistical Modelling
+- Principal Component Analysis
+- Financial Data Analysis
+- Portfolio Optimization
+- Performance Evaluation
+- Python Programming
