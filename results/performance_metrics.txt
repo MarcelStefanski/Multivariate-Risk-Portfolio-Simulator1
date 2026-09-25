@@ -1,0 +1,6 @@
+PERFORMANCE METRICS
+------------------------------
+Annual Return: 11.24%
+Annual Volatility: 11.22%
+Sharpe Ratio: 1.00
+Maximum Drawdown: -23.10%
