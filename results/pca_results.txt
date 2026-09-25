@@ -1,0 +1,7 @@
+
+PCA Risk Decomposition
+------------------------------
+Principal Component 1: 63.12%
+Principal Component 2: 23.21%
+Principal Component 3: 11.59%
+Principal Component 4: 2.09%
