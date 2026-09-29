@@ -101,9 +101,9 @@ Portfolio performance evaluated under hypothetical market events:
 
 ### Benchmark Comparison
 
-- Portfolio vs SPY benchmark
-- Return and volatility comparison
-- Comparative performance visualization
+- Monthly or quarterly cost-aware portfolio vs buy-and-hold SPY over the same period
+- Return, volatility, drawdown, and portfolio turnover comparison
+- Comparative growth visualization
 
 ### Performance Metrics
 

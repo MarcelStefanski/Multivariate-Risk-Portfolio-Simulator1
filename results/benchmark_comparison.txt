@@ -1,0 +1,20 @@
+COST-AWARE PORTFOLIO VS SPY BENCHMARK
+Period: 2015-01-01 to 2025-01-01
+Portfolio rebalancing: monthly
+Portfolio transaction cost: 10 bps per dollar traded
+SPY benchmark: buy and hold
+
+Portfolio
+Final Value: $3.1122
+Total Return: 211.22%
+Annualized Arithmetic Return: 12.28%
+Annualized Volatility: 13.38%
+Maximum Drawdown: -26.69%
+Cumulative Two-Way Turnover: 247.05%
+
+SPY
+Final Value: $3.3957
+Total Return: 239.57%
+Annualized Arithmetic Return: 13.81%
+Annualized Volatility: 17.62%
+Maximum Drawdown: -33.72%
