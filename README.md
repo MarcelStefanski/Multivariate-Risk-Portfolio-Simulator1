@@ -96,8 +96,8 @@ Portfolio performance evaluated under hypothetical market events:
 
 ### Historical Backtesting
 
-- Daily rebalanced portfolio growth simulation, with no transaction costs
-- Long-term performance evaluation
+- Daily, frictionless baseline compared with configurable monthly or quarterly rebalancing
+- Configurable transaction costs, portfolio growth, annualized return and volatility, maximum drawdown, and turnover
 
 ### Benchmark Comparison
 

@@ -1,4 +1,18 @@
-Final Portfolio Value:
+PORTFOLIO BACKTEST COMPARISON
+Period: 2015-01-01 to 2025-01-01
 
-2.8835844943048645
-~188.36% total return
+Daily rebalancing baseline (no transaction costs)
+Final Portfolio Value: $3.1963
+Total Return: 219.63%
+Annualized Arithmetic Return: 12.56%
+Annualized Volatility: 13.52%
+Maximum Drawdown: -26.32%
+
+Monthly rebalancing with transaction costs
+Transaction Cost: 10 bps per dollar traded
+Final Portfolio Value: $3.1122
+Total Return: 211.22%
+Annualized Arithmetic Return: 12.28%
+Annualized Volatility: 13.38%
+Maximum Drawdown: -26.69%
+Cumulative Two-Way Turnover: 247.05%
