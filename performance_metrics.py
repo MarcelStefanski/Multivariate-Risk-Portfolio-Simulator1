@@ -9,7 +9,7 @@ data = yf.download(
     end="2025-01-01"
 )
 
-prices = data["Close"]
+prices = data["Close"].loc[:, tickers]
 
 returns = prices.pct_change().dropna()
 
