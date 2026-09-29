@@ -14,6 +14,7 @@ The simulator uses historical asset data to:
 - Generate Monte Carlo scenarios
 - Calculate Value at Risk (VaR)
 - Calculate Expected Shortfall (ES)
+- Compare historical and Monte Carlo VaR and Expected Shortfall
 - Sample feasible portfolio risk/return combinations
 - Find sample-best Sharpe and minimum-risk portfolios
 - Perform stress testing under adverse market conditions
@@ -71,6 +72,7 @@ These assets provide exposure to:
 - Value at Risk (VaR)
 - Expected Shortfall (ES)
 - Maximum Drawdown
+- Sortino Ratio (0% target return)
 
 ### Portfolio Sampling
 
@@ -200,8 +202,6 @@ This highlights that QQQ is the primary driver of portfolio risk despite represe
 
 Potential extensions include:
 
-- Sortino Ratio
-- Historical VaR vs Monte Carlo VaR comparison
 - Alternative rebalancing schedules and transaction costs
 - Factor models
 - Interactive dashboard

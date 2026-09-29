@@ -1,0 +1,8 @@
+HISTORICAL VS MONTE CARLO PORTFOLIO RISK
+One-day loss estimates; VaR and Expected Shortfall shown as positive losses.
+Monte Carlo simulations: 10,000
+Monte Carlo model: multivariate normal returns using historical mean and covariance.
+
+Confidence       Historical VaR   Historical ES   Monte Carlo VaR   Monte Carlo ES
+     95%             1.29%            2.04%              1.37%             1.72%
+     99%             2.43%            3.37%              1.93%             2.17%

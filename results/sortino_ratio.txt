@@ -1,0 +1,6 @@
+SORTINO RATIO
+
+Annual Target Return: 0.00%
+Annualized Arithmetic Return: 12.56%
+Annualized Downside Deviation: 9.56%
+Sortino Ratio: 1.31
