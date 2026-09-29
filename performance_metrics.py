@@ -31,12 +31,14 @@ print(f"Annualized Arithmetic Return: {annual_return:.2%}")
 print(f"Annual Volatility: {annual_volatility:.2%}")
 print(f"Sharpe Ratio (0% risk-free rate): {sharpe_ratio:.2f}")
 
-portfolio_value = (1 + portfolio_returns).cumprod()
+portfolio_value = np.concatenate(
+    ([1.0], (1 + portfolio_returns).cumprod().to_numpy())
+)
 
-running_max = portfolio_value.cummax()
+running_max = np.maximum.accumulate(portfolio_value)
 
 drawdown = (portfolio_value - running_max) / running_max
 
-max_drawdown = drawdown.min()
+max_drawdown = np.min(drawdown)
 
 print(f"Maximum Drawdown: {max_drawdown:.2%}")
