@@ -14,8 +14,8 @@ The simulator uses historical asset data to:
 - Generate Monte Carlo scenarios
 - Calculate Value at Risk (VaR)
 - Calculate Expected Shortfall (ES)
-- Construct an Efficient Frontier
-- Find Maximum Sharpe and Minimum Risk portfolios
+- Sample feasible portfolio risk/return combinations
+- Find sample-best Sharpe and minimum-risk portfolios
 - Perform stress testing under adverse market conditions
 - Measure risk contributions by asset
 - Perform Principal Component Analysis (PCA)
@@ -72,11 +72,10 @@ These assets provide exposure to:
 - Expected Shortfall (ES)
 - Maximum Drawdown
 
-### Portfolio Optimization
+### Portfolio Sampling
 
-- Efficient Frontier generation
-- Maximum Sharpe Ratio portfolio
-- Minimum Risk portfolio
+- Fixed-seed random sampling of 5,000 long-only portfolio weights
+- Best sampled Maximum Sharpe Ratio and Minimum Risk portfolios
 
 ### Stress Testing
 
@@ -95,7 +94,7 @@ Portfolio performance evaluated under hypothetical market events:
 
 ### Historical Backtesting
 
-- Historical portfolio growth simulation
+- Daily rebalanced portfolio growth simulation, with no transaction costs
 - Long-term performance evaluation
 
 ### Benchmark Comparison
@@ -106,7 +105,7 @@ Portfolio performance evaluated under hypothetical market events:
 
 ### Performance Metrics
 
-- Annualized Return
+- Annualized arithmetic return
 - Annualized Volatility
 - Sharpe Ratio
 - Maximum Drawdown
@@ -127,9 +126,11 @@ Portfolio performance evaluated under hypothetical market events:
 
 ## Key Results
 
-### Maximum Sharpe Portfolio
+The portfolio results below are saved example outputs from an earlier 5,000-sample run. The optimizer now uses a fixed random seed, so its results may differ from this snapshot.
 
-- Annual Return: 13.40%
+### Best Sampled Maximum Sharpe Portfolio
+
+- Annualized Arithmetic Return: 13.40%
 - Annual Risk: 12.89%
 
 Portfolio Weights:
@@ -139,9 +140,9 @@ Portfolio Weights:
 - GLD: 2.78%
 - TLT: 0.99%
 
-### Minimum Risk Portfolio
+### Best Sampled Minimum Risk Portfolio
 
-- Annual Return: 6.97%
+- Annualized Arithmetic Return: 6.97%
 - Annual Risk: 9.38%
 
 Portfolio Weights:
@@ -153,21 +154,21 @@ Portfolio Weights:
 
 ### Portfolio Performance
 
-- Annual Return: 11.24%
+- Annualized Arithmetic Return: 11.24%
 - Annual Volatility: 11.22%
-- Sharpe Ratio: 1.00
+- Sharpe Ratio (0% risk-free rate): 1.00
 - Maximum Drawdown: -23.10%
 
 ### Benchmark Comparison
 
 Portfolio:
 
-- Annual Return: 11.24%
+- Annualized Arithmetic Return: 11.24%
 - Annual Volatility: 11.22%
 
 SPY Benchmark:
 
-- Annual Return: 13.81%
+- Annualized Arithmetic Return: 13.81%
 - Annual Volatility: 17.62%
 
 The diversified portfolio generated lower returns than SPY while reducing volatility by approximately 36%.
@@ -201,7 +202,7 @@ Potential extensions include:
 
 - Sortino Ratio
 - Historical VaR vs Monte Carlo VaR comparison
-- Portfolio rebalancing strategies
+- Alternative rebalancing schedules and transaction costs
 - Factor models
 - Interactive dashboard
 - Copula-based dependence modeling

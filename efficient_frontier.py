@@ -19,10 +19,11 @@ cov_matrix = returns.cov()
 
 portfolio_returns = []
 portfolio_risks = []
+rng = np.random.default_rng(42)
 
 for i in range(5000):
 
-    weights = np.random.random(len(tickers))
+    weights = rng.random(len(tickers))
 
     weights = weights / np.sum(weights)
 
@@ -42,7 +43,7 @@ plt.scatter(portfolio_risks, portfolio_returns, alpha=0.5)
 
 plt.xlabel("Risk (Volatility)")
 plt.ylabel("Expected Return")
-plt.title("Efficient Frontier")
+plt.title("Random Portfolio Samples")
 
 plt.savefig(
     "results/efficient_frontier.png",

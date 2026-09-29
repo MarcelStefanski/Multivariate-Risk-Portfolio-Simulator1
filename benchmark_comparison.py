@@ -44,11 +44,11 @@ spy_volatility = (
 )
 
 print("PORTFOLIO")
-print(f"Annual Return: {portfolio_return:.2%}")
+print(f"Annualized Arithmetic Return: {portfolio_return:.2%}")
 print(f"Annual Volatility: {portfolio_volatility:.2%}")
 
 print("\nSPY")
-print(f"Annual Return: {spy_return:.2%}")
+print(f"Annualized Arithmetic Return: {spy_return:.2%}")
 print(f"Annual Volatility: {spy_volatility:.2%}")
 
 # Plot

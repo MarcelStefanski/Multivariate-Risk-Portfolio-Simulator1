@@ -16,7 +16,8 @@ returns = prices.pct_change().dropna()
 
 weights = np.array([0.4, 0.3, 0.15, 0.15])
 
-#Calculate the daily portfolio return
+# This applies the target weights daily, so it models frictionless daily
+# rebalancing and excludes transaction costs.
 portfolio_returns = returns @ weights
 
 #If invested $1 at the start

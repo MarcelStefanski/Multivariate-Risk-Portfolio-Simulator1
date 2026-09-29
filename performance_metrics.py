@@ -21,14 +21,15 @@ annual_return = portfolio_returns.mean() * 252
 
 annual_volatility = portfolio_returns.std() * np.sqrt(252)
 
+# Sharpe ratio assumes a 0% risk-free rate.
 sharpe_ratio = annual_return / annual_volatility
 
 print("PERFORMANCE METRICS")
 print("-" * 30)
 
-print(f"Annual Return: {annual_return:.2%}")
+print(f"Annualized Arithmetic Return: {annual_return:.2%}")
 print(f"Annual Volatility: {annual_volatility:.2%}")
-print(f"Sharpe Ratio: {sharpe_ratio:.2f}")
+print(f"Sharpe Ratio (0% risk-free rate): {sharpe_ratio:.2f}")
 
 portfolio_value = (1 + portfolio_returns).cumprod()
 

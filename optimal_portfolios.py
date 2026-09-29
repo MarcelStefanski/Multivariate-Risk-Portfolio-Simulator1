@@ -24,10 +24,11 @@ cov_matrix = returns.cov()
 
 portfolio_returns = []
 portfolio_risks = []
+rng = np.random.default_rng(42)
 
 for i in range(5000):
 
-    weights = np.random.random(len(tickers))
+    weights = rng.random(len(tickers))
 
     weights = weights / np.sum(weights)
 
@@ -53,7 +54,7 @@ best_return = portfolio_returns[max_sharpe_index]
 best_risk = portfolio_risks[max_sharpe_index]
 best_weights = all_weights[max_sharpe_index]
 
-print("Maximum Sharpe Portfolio")
+print("Best Sampled Maximum Sharpe Portfolio (5,000 samples)")
 print("Return:", best_return)
 print("Risk:", best_risk)
 print("Weights:")
@@ -63,7 +64,7 @@ plt.scatter(portfolio_risks, portfolio_returns, alpha=0.5)
 
 min_risk_index = np.argmin(portfolio_risks)
 
-print("\nMinimum Risk Portfolio")
+print("\nBest Sampled Minimum Risk Portfolio (5,000 samples)")
 print("Return:", portfolio_returns[min_risk_index])
 print("Risk:", portfolio_risks[min_risk_index])
 print("Weights:")
@@ -74,7 +75,7 @@ plt.scatter(
     best_return,
     color="red",
     s=120,
-    label="Max Sharpe"
+    label="Best sampled max Sharpe"
 )
 
 plt.scatter(
@@ -82,11 +83,11 @@ plt.scatter(
     portfolio_returns[min_risk_index],
     color="green",
     s=120,
-    label="Min Risk"
+    label="Best sampled min risk"
 )
 plt.xlabel("Risk (Volatility)")
 plt.ylabel("Expected Return")
-plt.title("Efficient Frontier")
+plt.title("Random Portfolio Samples")
 plt.legend()
 
 plt.savefig(
