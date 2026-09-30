@@ -98,6 +98,7 @@ Portfolio performance evaluated under hypothetical market events:
 
 - Daily, frictionless baseline compared with configurable monthly or quarterly rebalancing
 - Configurable transaction costs, portfolio growth, annualized return and volatility, maximum drawdown, and turnover
+- Monthly vs quarterly cost-aware comparison using the same cost assumption
 
 ### Benchmark Comparison
 
@@ -202,7 +203,7 @@ This highlights that QQQ is the primary driver of portfolio risk despite represe
 
 Potential extensions include:
 
-- Alternative rebalancing schedules and transaction costs
+- Sensitivity analysis across alternative transaction-cost assumptions
 - Factor models
 - Interactive dashboard
 - Copula-based dependence modeling

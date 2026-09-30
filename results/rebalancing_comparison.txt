@@ -1,0 +1,19 @@
+REBALANCING SCHEDULE COMPARISON
+Period: 2015-01-01 to 2025-01-01
+Transaction cost: 10 bps per dollar traded
+
+Monthly
+Final Value: $3.1122
+Total Return: 211.22%
+Annualized Arithmetic Return: 12.28%
+Annualized Volatility: 13.38%
+Maximum Drawdown: -26.69%
+Cumulative Two-Way Turnover: 247.05%
+
+Quarterly
+Final Value: $3.1290
+Total Return: 212.90%
+Annualized Arithmetic Return: 12.32%
+Annualized Volatility: 13.29%
+Maximum Drawdown: -26.78%
+Cumulative Two-Way Turnover: 147.88%
