@@ -1,0 +1,14 @@
+FAMA-FRENCH THREE-FACTOR ANALYSIS
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Aligned period: 2015-01-05 to 2024-12-31
+Daily observations: 2515
+
+Annualized alpha: 1.74%
+Market beta (Mkt-RF): 0.686
+Size beta (SMB): -0.052
+Value beta (HML): -0.171
+R-squared: 91.70%
+
+The model explains portfolio excess returns using the market, size, and value factors.
+Gold and bond risks may not be captured by these U.S. equity factors.

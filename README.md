@@ -101,12 +101,19 @@ Portfolio performance evaluated under hypothetical market events:
 - Monthly vs quarterly cost-aware comparison using the same cost assumption
 - Monthly and quarterly results compared across transaction-cost assumptions
 - Fixed-weight holdout backtest compared with SPY
+- Fama-French three-factor regression for portfolio alpha and factor exposure
 
 ### Benchmark Comparison
 
 - Monthly or quarterly cost-aware portfolio vs buy-and-hold SPY over the same period
 - Return, volatility, drawdown, and portfolio turnover comparison
 - Comparative growth visualization
+
+### Factor Analysis
+
+- Estimates portfolio exposure to the market, size, and value factors
+- Reports annualized alpha and R-squared using daily returns after configured transaction costs
+- Uses daily factor data from the [Kenneth R. French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
 
 ### Performance Metrics
 
@@ -205,7 +212,6 @@ This highlights that QQQ is the primary driver of portfolio risk despite represe
 
 Potential extensions include:
 
-- Factor models
 - Interactive dashboard
 - Copula-based dependence modeling
 - Advanced risk attribution
