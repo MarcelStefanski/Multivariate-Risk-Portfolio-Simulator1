@@ -1,0 +1,13 @@
+TRANSACTION COST SENSITIVITY
+Period: 2015-01-01 to 2025-01-01
+Monthly and quarterly rebalancing; returns shown after trading costs.
+
+Schedule  | Cost bps | Final value | Total return | Ann. return | Volatility | Max drawdown | Turnover
+Monthly   |        0 | $    3.1199 |     211.99% |     12.30% |     13.38% |      -26.68% |  247.05%
+Monthly   |        5 | $    3.1160 |     211.60% |     12.29% |     13.38% |      -26.68% |  247.05%
+Monthly   |       10 | $    3.1122 |     211.22% |     12.28% |     13.38% |      -26.69% |  247.05%
+Monthly   |       20 | $    3.1045 |     210.45% |     12.25% |     13.38% |      -26.71% |  247.05%
+Quarterly |        0 | $    3.1336 |     213.36% |     12.33% |     13.29% |      -26.77% |  147.88%
+Quarterly |        5 | $    3.1313 |     213.13% |     12.32% |     13.29% |      -26.77% |  147.88%
+Quarterly |       10 | $    3.1290 |     212.90% |     12.32% |     13.29% |      -26.78% |  147.88%
+Quarterly |       20 | $    3.1244 |     212.44% |     12.30% |     13.29% |      -26.79% |  147.88%

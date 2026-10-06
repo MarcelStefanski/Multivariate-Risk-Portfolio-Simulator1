@@ -1,0 +1,27 @@
+OUT-OF-SAMPLE BACKTEST
+Portfolio weights are fixed at 40% SPY, 30% QQQ, 15% GLD, and 15% TLT.
+Rebalancing: monthly; transaction cost: 10 bps per dollar traded.
+The weights are not optimized using holdout-period data.
+
+Earlier period: 2015-01-01 to 2021-01-01
+Portfolio final value: $2.2000
+Total return: 120.00%
+Annualized arithmetic return: 13.99%
+Annualized volatility: 12.86%
+Maximum drawdown: -21.68%
+Cumulative two-way turnover: 155.90%
+
+Holdout period: 2021-01-01 to 2025-01-01
+Portfolio final value: $1.4147
+Total return: 41.47%
+Annualized arithmetic return: 9.70%
+Annualized volatility: 14.13%
+Maximum drawdown: -26.69%
+Cumulative two-way turnover: 91.15%
+
+SPY buy-and-hold during holdout
+Final value: $1.6598
+Total return: 65.98%
+Annualized arithmetic return: 14.07%
+Annualized volatility: 16.48%
+Maximum drawdown: -24.50%

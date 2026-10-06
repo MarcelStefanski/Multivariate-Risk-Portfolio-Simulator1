@@ -100,6 +100,7 @@ Portfolio performance evaluated under hypothetical market events:
 - Configurable transaction costs, portfolio growth, annualized return and volatility, maximum drawdown, and turnover
 - Monthly vs quarterly cost-aware comparison using the same cost assumption
 - Monthly and quarterly results compared across transaction-cost assumptions
+- Fixed-weight holdout backtest compared with SPY
 
 ### Benchmark Comparison
 

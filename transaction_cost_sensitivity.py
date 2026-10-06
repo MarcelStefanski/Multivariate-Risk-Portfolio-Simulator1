@@ -37,20 +37,20 @@ def main():
         f"Period: {START_DATE} to {END_DATE}",
         "Monthly and quarterly rebalancing; returns shown after trading costs.",
         "",
-        "Schedule   Cost (bps)   Final Value   Total Return   Annual Return   Volatility   Max Drawdown   Turnover",
+        "Schedule  | Cost bps | Final value | Total return | Ann. return | Volatility | Max drawdown | Turnover",
     ]
     for frequency in FREQUENCIES:
         for cost_bps in COST_LEVELS_BPS:
             summary = results[(frequency, cost_bps)]
             lines.append(
-                f"{frequency.title():<10}"
-                f"{cost_bps:>8}"
-                f"${summary['final_value']:>12.4f}"
-                f"{summary['total_return']:>14.2%}"
-                f"{summary['annualized_return']:>15.2%}"
-                f"{summary['annualized_volatility']:>12.2%}"
-                f"{summary['maximum_drawdown']:>15.2%}"
-                f"{summary['turnover']:>11.2%}"
+                f"{frequency.title():<9} | "
+                f"{cost_bps:>8} | "
+                f"${summary['final_value']:>10.4f} | "
+                f"{summary['total_return']:>11.2%} | "
+                f"{summary['annualized_return']:>10.2%} | "
+                f"{summary['annualized_volatility']:>10.2%} | "
+                f"{summary['maximum_drawdown']:>12.2%} | "
+                f"{summary['turnover']:>8.2%}"
             )
 
     result_text = "\n".join(lines)
