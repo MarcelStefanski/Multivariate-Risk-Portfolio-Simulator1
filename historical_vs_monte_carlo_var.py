@@ -55,6 +55,6 @@ for confidence in CONFIDENCE_LEVELS:
 result = "\n".join(lines)
 print(result)
 
-output_path = Path("results/historical_vs_monte_carlo_var.txt")
+output_path = Path("results/reports/historical_vs_monte_carlo_var.txt")
 output_path.parent.mkdir(parents=True, exist_ok=True)
 output_path.write_text(result + "\n", encoding="utf-8")

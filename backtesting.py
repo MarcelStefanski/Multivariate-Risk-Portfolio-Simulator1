@@ -120,10 +120,12 @@ Cumulative Two-Way Turnover: {turnover:.2%}"""
     plt.ylabel("Growth of $1")
     plt.legend()
 
-    results_dir = Path("results")
-    results_dir.mkdir(parents=True, exist_ok=True)
-    plt.savefig(results_dir / "backtest.png", dpi=300, bbox_inches="tight")
-    (results_dir / "backtest.txt").write_text(result + "\n", encoding="utf-8")
+    figures_dir = Path("results/figures")
+    reports_dir = Path("results/reports")
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    plt.savefig(figures_dir / "backtest.png", dpi=300, bbox_inches="tight")
+    (reports_dir / "backtest.txt").write_text(result + "\n", encoding="utf-8")
     plt.show()
 
 

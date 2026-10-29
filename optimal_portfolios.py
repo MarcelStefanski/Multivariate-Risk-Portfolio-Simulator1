@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -90,8 +92,10 @@ plt.ylabel("Expected Return")
 plt.title("Random Portfolio Samples")
 plt.legend()
 
+figures_dir = Path("results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
 plt.savefig(
-    "results/optimal_portfolios.png",
+    figures_dir / "optimal_portfolios.png",
     dpi=300,
     bbox_inches="tight"
 )

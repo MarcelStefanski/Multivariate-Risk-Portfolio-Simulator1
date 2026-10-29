@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -38,8 +40,10 @@ plt.xlabel("Principal Component")
 plt.ylabel("Explained Variance")
 plt.title("PCA Risk Decomposition")
 
+figures_dir = Path("results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
 plt.savefig(
-    "results/pca_analysis.png",
+    figures_dir / "pca_analysis.png",
     dpi=300,
     bbox_inches="tight"
 )

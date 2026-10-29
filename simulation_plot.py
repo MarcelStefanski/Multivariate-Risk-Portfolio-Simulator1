@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,6 +47,8 @@ plt.xlabel("Return")
 plt.ylabel("Frequency")
 
 plt.legend()
-plt.savefig("results/monte_carlo_distribution.png")
+figures_dir = Path("results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
+plt.savefig(figures_dir / "monte_carlo_distribution.png")
 
 plt.show()

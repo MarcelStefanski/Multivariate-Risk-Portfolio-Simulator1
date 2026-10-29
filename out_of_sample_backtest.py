@@ -84,12 +84,14 @@ Maximum drawdown: {spy['maximum_drawdown']:.2%}"""
     plt.ylabel("Growth of $1")
     plt.legend()
 
-    results_dir = Path("results")
-    results_dir.mkdir(parents=True, exist_ok=True)
+    figures_dir = Path("results/figures")
+    reports_dir = Path("results/reports")
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    reports_dir.mkdir(parents=True, exist_ok=True)
     plt.savefig(
-        results_dir / "out_of_sample_backtest.png", dpi=300, bbox_inches="tight"
+        figures_dir / "out_of_sample_backtest.png", dpi=300, bbox_inches="tight"
     )
-    (results_dir / "out_of_sample_backtest.txt").write_text(
+    (reports_dir / "out_of_sample_backtest.txt").write_text(
         result + "\n", encoding="utf-8"
     )
     plt.show()

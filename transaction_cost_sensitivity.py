@@ -68,14 +68,16 @@ def main():
     plt.ylabel("Final Value of $1")
     plt.legend(title="Rebalancing")
 
-    results_dir = Path("results")
-    results_dir.mkdir(parents=True, exist_ok=True)
+    figures_dir = Path("results/figures")
+    reports_dir = Path("results/reports")
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    reports_dir.mkdir(parents=True, exist_ok=True)
     plt.savefig(
-        results_dir / "transaction_cost_sensitivity.png",
+        figures_dir / "transaction_cost_sensitivity.png",
         dpi=300,
         bbox_inches="tight",
     )
-    (results_dir / "transaction_cost_sensitivity.txt").write_text(
+    (reports_dir / "transaction_cost_sensitivity.txt").write_text(
         result_text + "\n", encoding="utf-8"
     )
     plt.show()

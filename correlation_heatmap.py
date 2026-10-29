@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import yfinance as yf
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -27,8 +29,10 @@ sns.heatmap(
 
 plt.title("Correlation Heatmap")
 
+figures_dir = Path("results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
 plt.savefig(
-    "results/correlation_heatmap.png",
+    figures_dir / "correlation_heatmap.png",
     dpi=300,
     bbox_inches="tight"
 )

@@ -106,9 +106,11 @@ The model explains portfolio excess returns using the market, size, and value fa
 Gold and bond risks may not be captured by these U.S. equity factors."""
     print(result)
 
-    results_dir = Path("results")
-    results_dir.mkdir(parents=True, exist_ok=True)
-    (results_dir / "factor_analysis.txt").write_text(result + "\n", encoding="utf-8")
+    figures_dir = Path("results/figures")
+    reports_dir = Path("results/reports")
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    (reports_dir / "factor_analysis.txt").write_text(result + "\n", encoding="utf-8")
 
     labels = ["Market (Mkt-RF)", "Size (SMB)", "Value (HML)"]
     betas = [model["betas"][name] for name in FACTOR_NAMES]
@@ -118,7 +120,7 @@ Gold and bond risks may not be captured by these U.S. equity factors."""
     plt.title("Portfolio Exposure to Fama-French Factors")
     plt.ylabel("Estimated beta")
     plt.tight_layout()
-    plt.savefig(results_dir / "factor_analysis.png", dpi=300, bbox_inches="tight")
+    plt.savefig(figures_dir / "factor_analysis.png", dpi=300, bbox_inches="tight")
     plt.show()
 
 

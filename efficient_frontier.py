@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,8 +47,10 @@ plt.xlabel("Risk (Volatility)")
 plt.ylabel("Expected Return")
 plt.title("Random Portfolio Samples")
 
+figures_dir = Path("results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
 plt.savefig(
-    "results/efficient_frontier.png",
+    figures_dir / "efficient_frontier.png",
     dpi=300,
     bbox_inches="tight"
 )

@@ -43,6 +43,6 @@ result = "\n".join(
 
 print(result)
 
-output_path = Path("results/sortino_ratio.txt")
+output_path = Path("results/reports/sortino_ratio.txt")
 output_path.parent.mkdir(parents=True, exist_ok=True)
 output_path.write_text(result + "\n", encoding="utf-8")

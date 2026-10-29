@@ -122,6 +122,11 @@ Portfolio performance evaluated under hypothetical market events:
 - Sharpe Ratio
 - Maximum Drawdown
 
+### Generated Results
+
+- Charts are saved in `results/figures/`
+- Text summaries are saved in `results/reports/`
+
 ---
 
 ## Technologies Used
