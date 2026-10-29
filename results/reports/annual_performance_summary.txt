@@ -1,0 +1,17 @@
+ANNUAL PORTFOLIO PERFORMANCE SUMMARY
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Portfolio rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Portfolio returns include transaction costs; SPY is buy and hold.
+Volatility is annualized from daily returns.
+
+Year | Portfolio return | SPY return | Portfolio volatility | SPY volatility
+2015 |            1.69% |      1.29% |               10.87% |        15.46%
+2016 |            8.90% |     12.00% |                8.87% |        13.06%
+2017 |           21.61% |     21.71% |                5.46% |         6.74%
+2018 |           -1.94% |     -4.57% |               13.08% |        17.04%
+2019 |           29.30% |     31.22% |                8.88% |        12.51%
+2020 |           28.83% |     18.33% |               22.69% |        33.40%
+2021 |           17.79% |     28.73% |               11.10% |        12.99%
+2022 |          -22.07% |    -18.18% |               20.24% |        24.24%
+2023 |           28.35% |     26.18% |               11.49% |        13.08%
+2024 |           20.07% |     24.89% |               11.41% |        12.57%

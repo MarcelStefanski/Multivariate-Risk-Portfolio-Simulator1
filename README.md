@@ -125,6 +125,7 @@ Portfolio performance evaluated under hypothetical market events:
 
 - Annualized arithmetic return
 - Annualized Volatility
+- Calendar-year portfolio and SPY return and volatility comparison
 - Sharpe Ratio
 - Maximum Drawdown
 
