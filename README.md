@@ -25,6 +25,7 @@ The simulator uses historical asset data to:
 - Track portfolio risk over rolling one-year periods
 - Track risk-adjusted performance over rolling one-year periods
 - Track how asset correlations change over rolling one-year periods
+- Track portfolio sensitivity to SPY over rolling one-year periods
 
 ---
 
@@ -125,6 +126,10 @@ Portfolio performance evaluated under hypothetical market events:
 ### Rolling Sharpe Analysis
 
 - Compares rolling one-year annualized Sharpe ratios for the cost-aware portfolio and SPY, using a 0% risk-free rate
+
+### Rolling Beta Analysis
+
+- Tracks the cost-aware portfolio's rolling one-year beta relative to SPY
 
 ### Factor Analysis
 

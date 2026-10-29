@@ -1,0 +1,12 @@
+ROLLING ONE-YEAR PORTFOLIO BETA ANALYSIS
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Benchmark: SPY
+Rolling window: 252 trading days
+Analyzed dates: 2016-01-04 to 2024-12-31
+
+Average rolling beta: 0.73
+Highest rolling beta: 0.90
+Lowest rolling beta: 0.58
+
+A beta of 1 indicates the portfolio moved with SPY at about the same magnitude over the window.
