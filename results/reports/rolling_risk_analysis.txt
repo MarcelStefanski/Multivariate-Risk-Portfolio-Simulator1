@@ -1,0 +1,15 @@
+ROLLING ONE-YEAR RISK ANALYSIS
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Rolling window: 252 trading days
+Analyzed dates: 2016-01-04 to 2024-12-31
+
+Portfolio, after costs
+Average rolling annualized volatility: 12.85%
+Highest rolling annualized volatility: 23.00%
+Worst rolling one-year drawdown: -26.69%
+
+SPY, buy and hold
+Average rolling annualized volatility: 16.69%
+Highest rolling annualized volatility: 33.65%
+Worst rolling one-year drawdown: -33.72%

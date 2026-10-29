@@ -22,6 +22,7 @@ The simulator uses historical asset data to:
 - Perform Principal Component Analysis (PCA)
 - Backtest historical portfolio performance
 - Compare portfolio performance against a benchmark
+- Track portfolio risk over rolling one-year periods
 
 ---
 
@@ -108,6 +109,10 @@ Portfolio performance evaluated under hypothetical market events:
 - Monthly or quarterly cost-aware portfolio vs buy-and-hold SPY over the same period
 - Return, volatility, drawdown, and portfolio turnover comparison
 - Comparative growth visualization
+
+### Rolling Risk Analysis
+
+- Compares rolling annualized volatility and one-year maximum drawdown for the cost-aware portfolio and SPY
 
 ### Factor Analysis
 
