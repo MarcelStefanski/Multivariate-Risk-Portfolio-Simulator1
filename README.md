@@ -147,6 +147,14 @@ Portfolio performance evaluated under hypothetical market events:
 - Scikit-learn
 - yfinance
 
+## Setup
+
+Install the required Python packages with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ---
 
 ## Key Results
