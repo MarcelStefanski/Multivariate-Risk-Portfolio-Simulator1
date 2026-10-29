@@ -1,0 +1,17 @@
+DRAWDOWN AND RECOVERY ANALYSIS
+
+Period: 2015-01-05 to 2024-12-31
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+
+Portfolio, after costs
+Worst peak-to-trough drawdown: -26.69% on 2022-10-14
+Longest period below a previous peak: 502 trading days
+Started: 2021-12-28; lowest point: 2022-10-14 (-26.69%)
+Recovery: 2023-12-27
+
+SPY, buy and hold
+Worst peak-to-trough drawdown: -33.72% on 2020-03-23
+Longest period below a previous peak: 488 trading days
+Started: 2022-01-04; lowest point: 2022-10-12 (-24.50%)
+Recovery: 2023-12-13

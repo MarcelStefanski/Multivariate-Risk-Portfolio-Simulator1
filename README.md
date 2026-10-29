@@ -27,6 +27,7 @@ The simulator uses historical asset data to:
 - Track risk-adjusted performance over rolling one-year periods
 - Track how asset correlations change over rolling one-year periods
 - Track portfolio sensitivity to SPY over rolling one-year periods
+- Measure the depth and recovery time of portfolio drawdowns
 
 ---
 
@@ -128,6 +129,11 @@ Portfolio performance evaluated under hypothetical market events:
 ### Rolling Risk Analysis
 
 - Compares rolling annualized volatility and one-year maximum drawdown for the cost-aware portfolio and SPY
+
+### Drawdown Recovery Analysis
+
+- Reports the deepest drawdown and longest time below a previous peak for the portfolio and SPY
+- Plots daily drawdowns from previous peaks
 
 ### Rolling Sharpe Analysis
 
