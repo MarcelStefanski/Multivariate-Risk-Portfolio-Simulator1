@@ -152,13 +152,25 @@ Portfolio performance evaluated under hypothetical market events:
 - Scikit-learn
 - yfinance
 
-## Setup
+## Setup and Running an Analysis
 
-Install the required Python packages with:
+From the project folder, create and activate a virtual environment, then install the required packages:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead of the `source` command.
+
+Run an analysis script, for example:
+
+```bash
+python rolling_sharpe_analysis.py
+```
+
+Replace the script name with another `.py` file to run a different analysis. Charts are saved in `results/figures/`, and text summaries are saved in `results/reports/`.
 
 ---
 
