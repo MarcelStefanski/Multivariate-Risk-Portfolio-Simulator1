@@ -102,6 +102,7 @@ Portfolio performance evaluated under hypothetical market events:
 - Monthly vs quarterly cost-aware comparison using the same cost assumption
 - Monthly and quarterly results compared across transaction-cost assumptions
 - Fixed-weight holdout backtest compared with SPY
+- Rolling 95% historical VaR checked against subsequent daily portfolio losses
 - Fama-French three-factor regression for portfolio alpha and factor exposure
 
 ### Benchmark Comparison

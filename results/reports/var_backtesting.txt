@@ -1,0 +1,15 @@
+ROLLING HISTORICAL VaR BACKTEST
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+VaR confidence level: 95%
+Historical lookback: 252 trading days
+Evaluation period: 2016-01-05 to 2024-12-31
+
+Forecast observations: 2263
+VaR breaches: 129
+Observed breach rate: 5.70%
+Expected breach rate: 5.00%
+Average one-day VaR: 1.28%
+
+A breach occurs when the actual daily loss is greater than the VaR forecast.
+The observed rate is a diagnostic and may differ from the expected rate.
