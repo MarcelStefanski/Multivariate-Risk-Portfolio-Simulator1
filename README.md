@@ -23,6 +23,7 @@ The simulator uses historical asset data to:
 - Backtest historical portfolio performance
 - Compare portfolio performance against a benchmark
 - Track portfolio risk over rolling one-year periods
+- Track risk-adjusted performance over rolling one-year periods
 
 ---
 
@@ -115,6 +116,10 @@ Portfolio performance evaluated under hypothetical market events:
 ### Rolling Risk Analysis
 
 - Compares rolling annualized volatility and one-year maximum drawdown for the cost-aware portfolio and SPY
+
+### Rolling Sharpe Analysis
+
+- Compares rolling one-year annualized Sharpe ratios for the cost-aware portfolio and SPY, using a 0% risk-free rate
 
 ### Factor Analysis
 

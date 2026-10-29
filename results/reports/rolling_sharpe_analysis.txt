@@ -1,0 +1,16 @@
+ROLLING ONE-YEAR SHARPE RATIO ANALYSIS
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Risk-free rate: 0%
+Rolling window: 252 trading days
+Analyzed dates: 2016-01-04 to 2024-12-31
+
+Portfolio, after costs
+Average rolling annualized Sharpe ratio: 1.16
+Highest rolling annualized Sharpe ratio: 3.96
+Lowest rolling annualized Sharpe ratio: -1.35
+
+SPY, buy and hold
+Average rolling annualized Sharpe ratio: 1.08
+Highest rolling annualized Sharpe ratio: 3.60
+Lowest rolling annualized Sharpe ratio: -0.79
