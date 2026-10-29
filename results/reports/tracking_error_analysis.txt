@@ -1,0 +1,17 @@
+TRACKING ERROR AND INFORMATION RATIO ANALYSIS
+Portfolio weights: SPY: 40%, QQQ: 30%, GLD: 15%, TLT: 15%
+Rebalancing: monthly; transaction costs: 10 bps per dollar traded
+Benchmark: SPY, buy and hold
+Analyzed dates: 2015-01-05 to 2024-12-31
+Rolling window: 252 trading days
+
+Full-period annualized tracking error: 6.81%
+Full-period information ratio: -0.23
+
+Rolling annualized tracking error
+Average: 6.46%
+Highest: 13.58%
+Lowest: 3.67%
+
+Tracking error measures the volatility of daily portfolio returns minus SPY returns.
+The information ratio scales average active returns by tracking error.
