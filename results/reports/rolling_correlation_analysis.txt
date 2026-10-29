@@ -1,0 +1,18 @@
+ROLLING ONE-YEAR CORRELATION ANALYSIS
+Rolling window: 252 trading days
+Analyzed dates: 2016-01-04 to 2024-12-31
+
+SPY and QQQ
+Average rolling correlation: 0.92
+Highest rolling correlation: 0.98
+Lowest rolling correlation: 0.78
+
+SPY and GLD
+Average rolling correlation: 0.00
+Highest rolling correlation: 0.31
+Lowest rolling correlation: -0.35
+
+SPY and TLT
+Average rolling correlation: -0.20
+Highest rolling correlation: 0.32
+Lowest rolling correlation: -0.58

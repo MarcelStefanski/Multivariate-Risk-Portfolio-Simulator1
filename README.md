@@ -24,6 +24,7 @@ The simulator uses historical asset data to:
 - Compare portfolio performance against a benchmark
 - Track portfolio risk over rolling one-year periods
 - Track risk-adjusted performance over rolling one-year periods
+- Track how asset correlations change over rolling one-year periods
 
 ---
 
@@ -64,6 +65,10 @@ These assets provide exposure to:
 - Correlation matrix
 - Portfolio volatility
 - Risk contribution analysis
+
+### Rolling Correlation Analysis
+
+- Compares one-year rolling correlations between SPY and QQQ, GLD, and TLT
 
 ### Monte Carlo Simulation
 
