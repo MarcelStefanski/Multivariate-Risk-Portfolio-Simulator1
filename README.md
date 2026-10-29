@@ -55,6 +55,7 @@ These assets provide exposure to:
 
 - Daily percentage returns
 - Mean return calculations
+- Calendar-month portfolio return heatmap
 
 ### Risk Analysis
 
